@@ -16,7 +16,7 @@ namespace exercicio_11
         {
 
         }
-
+        //ya
         private void cordotextoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FontDialog fontDialog = new FontDialog();
