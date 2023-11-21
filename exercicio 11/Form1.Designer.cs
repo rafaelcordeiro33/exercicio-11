@@ -32,6 +32,7 @@
             formatarToolStripMenuItem = new ToolStripMenuItem();
             cordotextoToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
+            button1 = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,12 +68,24 @@
             label1.Size = new Size(107, 25);
             label1.TabIndex = 1;
             label1.Text = "POO em C#";
+            label1.Click += label1_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(656, 398);
+            button1.Name = "button1";
+            button1.Size = new Size(144, 52);
+            button1.TabIndex = 2;
+            button1.Text = "Próx";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -90,5 +103,6 @@
         private ToolStripMenuItem formatarToolStripMenuItem;
         private ToolStripMenuItem cordotextoToolStripMenuItem;
         private Label label1;
+        private Button button1;
     }
 }

@@ -9,7 +9,7 @@ namespace exercicio_11
 
         private void tToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void amareloToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -29,6 +29,18 @@ namespace exercicio_11
             {
                 label1.ForeColor = colorDialog.Color;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 Form2 = new Form2();
+            this.Hide();
+            Form2.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
