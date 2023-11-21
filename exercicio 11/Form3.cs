@@ -14,7 +14,7 @@ namespace exercicio_11
     {
         public Form3()
         {
-            InitializeComponent();
+            InitializeComponent();//ya
         }
 
         private void button2_Click(object sender, EventArgs e)
